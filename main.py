@@ -1,10 +1,11 @@
 import os
-import constants
 import sys
 from pathlib import Path
 from openai import OpenAI
+from dotenv import load_dotenv
 
-os.environ['OPENAI_API_KEY'] = constants.APIKEY
+load_dotenv()
+
 text = sys.argv[1]
 
 client = OpenAI()
