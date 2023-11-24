@@ -149,3 +149,6 @@ Testing/
 # Pylance (https://github.com/microsoft/pylance-release/)
 .pyrightconfig.json
 audio/
+text/
+
+.DS_Store

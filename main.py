@@ -9,7 +9,6 @@ text = sys.argv[1]
 
 client = OpenAI()
 
-
 # Check if the directory does not exist
 if not os.path.exists('audio'):
   # Create the directory
